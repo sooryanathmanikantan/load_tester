@@ -1,0 +1,33 @@
+=======================================================
+   PDN LOAD TRANSIENT TEST REPORT
+=======================================================
+Date: 2026-08-02 15:59:16
+Mode: SIMULATION
+Captures per rail: 10
+-------------------------------------------------------
+Rail +3V6:  [PASS]
+    Passed captures : 10/10
+    Worst-case dip  : 3.4398 V
+    Mean dip        : 3.4932 V
+    Std deviation   : 0.0374 V
+-------------------------------------------------------
+Rail +1V8:  [FAIL]
+    Passed captures : 7/10
+    Worst-case dip  : 1.7093 V
+    Mean dip        : 1.7299 V
+    Std deviation   : 0.0230 V
+-------------------------------------------------------
+Rail +3V3:  [FAIL]
+    Passed captures : 6/10
+    Worst-case dip  : 3.1027 V
+    Mean dip        : 3.1697 V
+    Std deviation   : 0.0572 V
+-------------------------------------------------------
+Rail +2V5:  [FAIL]
+    Passed captures : 8/10
+    Worst-case dip  : 2.3556 V
+    Mean dip        : 2.4190 V
+    Std deviation   : 0.0396 V
+-------------------------------------------------------
+OVERALL RESULT: FAIL
+=======================================================
